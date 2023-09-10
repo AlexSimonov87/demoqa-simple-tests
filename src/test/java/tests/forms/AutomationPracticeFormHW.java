@@ -1,4 +1,4 @@
-package tests;
+package tests.forms;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
@@ -17,7 +17,7 @@ public class AutomationPracticeFormHW {
     static void beforeAll() {
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.browserSize = "1920x1080";
-        Configuration.holdBrowserOpen = true;
+        //Configuration.holdBrowserOpen = true;
         Configuration.pageLoadTimeout = 50000;
     }
 
